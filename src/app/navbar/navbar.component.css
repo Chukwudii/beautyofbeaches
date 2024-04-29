@@ -1,0 +1,38 @@
+body{
+    background-color: burlywood;
+}
+@media (min-width:992px) {
+ 
+    #menu {
+        display: none;
+    }  
+}
+@media(max-width:992px){
+    #navbar{
+    display: none;
+   } 
+}
+@media(max-width:400px) {
+    #sidebar {
+        width: 100%;
+    }
+}
+nav{
+    background-color: #20B5B1 ;
+    transition-duration: 0.5s;
+}
+nav:hover{
+    background-color: black;
+}
+#navigation {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+
+#navigation a {
+    justify-content: space-evenly;
+    color: white;
+    /* margin-right: 10px; */
+}

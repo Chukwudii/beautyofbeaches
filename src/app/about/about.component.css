@@ -1,0 +1,21 @@
+body{
+    background-color: #f6e4b8;
+}
+
+h1{
+    font-family: "Jost",sans-serif;
+    font-size: 700;
+    font-weight: 500;
+}
+
+h2{
+    font-family: "Jost",sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+p{
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+}
